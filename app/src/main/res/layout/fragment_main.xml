@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leo.navigationdrawer.MainFragment"
+    android:paddingTop="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Últimos partidos"
+            android:id="@+id/textView4"
+            android:layout_gravity="left|center_horizontal"
+            android:textSize="18dp"
+            android:textColor="#30b930" />
+    </LinearLayout>
+</FrameLayout>

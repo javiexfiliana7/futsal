@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EquiposFragment"
+    android:paddingTop="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduce el nombre del equipo"
+            android:id="@+id/textView2"
+            android:layout_gravity="left|center_horizontal"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#30b930"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="15"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:hint="Nombre equipo" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Añadir"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:backgroundTint="#cdebcd" />
+    </LinearLayout>
+</FrameLayout>
